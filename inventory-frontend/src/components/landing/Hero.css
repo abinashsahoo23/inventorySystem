@@ -1,0 +1,533 @@
+.inventory-hero {
+  position: relative;
+  isolation: isolate;
+
+  min-height: 100svh;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+  padding:
+    calc(var(--header-height) + 60px)
+    0
+    70px;
+
+  background: var(--color-background);
+}
+
+
+/* =========================================
+   AURORA
+   ========================================= */
+
+.inventory-hero-aurora {
+  position: absolute;
+  inset: 0;
+
+  z-index: -3;
+
+  pointer-events: none;
+}
+
+
+/*
+  This layer only improves text readability.
+  The Aurora component itself is untouched.
+*/
+
+.inventory-hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  z-index: -2;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(243, 247, 255, 0.18) 0%,
+      rgba(243, 247, 255, 0.04) 48%,
+      rgba(243, 247, 255, 0.68) 100%
+    );
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+.inventory-hero-content {
+  position: relative;
+  z-index: 2;
+
+  width:
+    min(calc(100% - 48px), 1360px);
+
+  min-height:
+    calc(100svh - 170px);
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* =========================================
+   HEADLINE WRAPPER
+   ========================================= */
+
+/*
+  The wrapper gives both headline lines
+  exactly the same horizontal starting point.
+
+  This is the important alignment fix.
+*/
+
+.inventory-hero-heading-wrap {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+
+.inventory-hero h1 {
+  width: fit-content;
+
+  max-width: 100%;
+
+  margin: 0;
+
+  color: #111c39;
+
+  font-family: var(--font-heading);
+
+  font-size:
+    clamp(4.5rem, 10.8vw, 10.5rem);
+
+  font-weight: 700;
+
+  line-height: 0.89;
+
+  letter-spacing: -0.085em;
+
+  text-align: left;
+}
+
+
+/* =========================================
+   HEADLINE LINES
+   ========================================= */
+
+.inventory-hero-line {
+  display: block;
+
+  white-space: nowrap;
+}
+
+
+.inventory-hero-track {
+  margin-top: 14px;
+
+  color: #596980;
+
+  font-weight: 600;
+}
+
+
+/* =========================================
+   FIXED TYPING AREA
+   ========================================= */
+
+/*
+  Fixed width prevents:
+  
+  stock
+  warehouses
+  purchases
+  sales
+
+  from moving the rest of the headline.
+*/
+
+.inventory-hero-word {
+  display: inline-flex;
+
+  align-items: baseline;
+
+  justify-content: flex-start;
+
+  width: 9.5ch;
+  min-width: 9.5ch;
+
+  text-align: left;
+
+  color: #514cf3;
+
+  white-space: nowrap;
+}
+
+
+.inventory-hero-typed {
+  display: inline-block;
+
+  min-width: 1px;
+
+  color: #514cf3;
+
+  font-weight: 700;
+}
+
+
+/* =========================================
+   TYPEWRITER CURSOR
+   ========================================= */
+
+.inventory-hero-cursor {
+  display: inline-block;
+
+  width: 4px;
+  height: 0.72em;
+
+  margin-left: 8px;
+
+  vertical-align: -0.02em;
+
+  background: #514cf3;
+
+  animation:
+    inventory-cursor-blink
+    0.85s
+    steps(1)
+    infinite;
+}
+
+
+@keyframes inventory-cursor-blink {
+  0%,
+  45% {
+    opacity: 1;
+  }
+
+  46%,
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* =========================================
+   LOWER CONTENT
+   ========================================= */
+
+.inventory-hero-lower {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  margin-top: 48px;
+}
+
+
+.inventory-hero-description {
+  width: min(650px, 100%);
+
+  margin: 0;
+
+  color: #40516c;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+
+  text-align: center;
+}
+
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.inventory-hero-actions {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+
+  margin-top: 30px;
+}
+
+
+.inventory-hero-primary,
+.inventory-hero-secondary {
+  min-height: 50px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 21px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+
+/* =========================================
+   PRIMARY BUTTON
+   ========================================= */
+
+/*
+  Explicit white text so it is always
+  readable against the dark background.
+*/
+
+.inventory-hero-primary {
+  color: #ffffff !important;
+
+  background: #172441;
+
+  border:
+    1px solid
+    #172441;
+}
+
+
+.inventory-hero-primary:hover {
+  color: #ffffff !important;
+
+  background: #2b3c68;
+
+  border-color: #2b3c68;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   SECONDARY BUTTON
+   ========================================= */
+
+.inventory-hero-secondary {
+  color: #172441;
+
+  background:
+    rgba(255, 255, 255, 0.48);
+
+  border:
+    1px solid
+    rgba(23, 36, 65, 0.32);
+}
+
+
+.inventory-hero-secondary:hover {
+  color: #172441;
+
+  background:
+    rgba(255, 255, 255, 0.72);
+
+  border-color:
+    rgba(23, 36, 65, 0.55);
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   LARGE DESKTOP
+   ========================================= */
+
+@media (min-width: 1400px) {
+
+  .inventory-hero h1 {
+    font-size:
+      clamp(7rem, 10.3vw, 10.5rem);
+  }
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 1000px) {
+
+  .inventory-hero {
+    padding:
+      calc(var(--header-height) + 50px)
+      0
+      60px;
+  }
+
+
+  .inventory-hero-content {
+    width:
+      min(calc(100% - 36px), 900px);
+
+    min-height:
+      calc(100svh - 145px);
+  }
+
+
+  .inventory-hero h1 {
+    font-size:
+      clamp(4rem, 12vw, 8rem);
+  }
+
+
+  .inventory-hero-word {
+    width: 9.5ch;
+    min-width: 9.5ch;
+  }
+
+
+  .inventory-hero-lower {
+    margin-top: 40px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 640px) {
+
+  .inventory-hero {
+    min-height: 100svh;
+
+    padding:
+      calc(var(--header-height) + 36px)
+      0
+      48px;
+  }
+
+
+  .inventory-hero-content {
+    width:
+      calc(100% - 28px);
+
+    min-height:
+      calc(100svh - 145px);
+  }
+
+
+  /*
+    On mobile the headline uses the
+    full available width while keeping
+    both lines aligned.
+  */
+
+  .inventory-hero-heading-wrap {
+    width: 100%;
+
+    justify-content: flex-start;
+  }
+
+
+  .inventory-hero h1 {
+    width: 100%;
+
+    max-width: none;
+
+    font-size:
+      clamp(3.2rem, 16.8vw, 5.7rem);
+
+    line-height: 0.92;
+
+    letter-spacing: -0.08em;
+  }
+
+
+  .inventory-hero-line {
+    white-space: nowrap;
+  }
+
+
+  .inventory-hero-track {
+    margin-top: 10px;
+  }
+
+
+  .inventory-hero-word {
+    width: 9.2ch;
+
+    min-width: 9.2ch;
+  }
+
+
+  .inventory-hero-cursor {
+    width: 3px;
+
+    height: 0.68em;
+
+    margin-left: 5px;
+  }
+
+
+  .inventory-hero-lower {
+    margin-top: 32px;
+  }
+
+
+  .inventory-hero-description {
+    width: 100%;
+
+    font-size: 14px;
+
+    line-height: 1.68;
+  }
+
+
+  .inventory-hero-actions {
+    width: 100%;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    margin-top: 26px;
+  }
+
+
+  .inventory-hero-primary,
+  .inventory-hero-secondary {
+    width: min(100%, 320px);
+  }
+}
+
+
+/* =========================================
+   REDUCED MOTION
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .inventory-hero-cursor {
+    animation: none;
+  }
+}

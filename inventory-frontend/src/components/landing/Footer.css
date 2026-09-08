@@ -1,0 +1,721 @@
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.landing-footer {
+  position: relative;
+
+  /*
+   * Match the landing page background exactly.
+   * The rounded footer field below provides
+   * the visual separation.
+   */
+  background:
+    var(--color-background);
+
+  padding:
+    28px
+    0
+    0;
+}
+
+
+/* =========================================
+   FOOTER SHELL / DATA FIELD
+   ========================================= */
+
+.landing-footer-shell {
+  position: relative;
+
+  width:
+    min(
+      calc(100% - 48px),
+      1240px
+    );
+
+  margin:
+    0
+    auto;
+
+  padding:
+    clamp(52px, 6vw, 74px)
+    clamp(32px, 5vw, 62px)
+    26px;
+
+  overflow:
+    hidden;
+
+  /*
+   * Keep the curved top corners.
+   */
+  border-radius:
+    30px
+    30px
+    0
+    0;
+
+  border:
+    1px solid
+    rgba(34, 52, 82, 0.09);
+
+  border-bottom:
+    0;
+
+  /*
+   * KEEP this mid-tone field.
+   * This is intentionally different from
+   * the landing page background.
+   */
+  background:
+    linear-gradient(
+      145deg,
+      #dfe7f2 0%,
+      #d7e0ec 52%,
+      #d2dce9 100%
+    );
+
+  box-shadow:
+    0
+    -12px
+    30px
+    rgba(25, 43, 72, 0.055),
+
+    0
+    -2px
+    8px
+    rgba(25, 43, 72, 0.035),
+
+    inset
+    0
+    1px
+    0
+    rgba(255, 255, 255, 0.58);
+}
+
+
+/* =========================================
+   SUBTLE FIELD LIGHT
+   ========================================= */
+
+.landing-footer-shell::before {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  right:
+    -180px;
+
+  top:
+    -220px;
+
+  width:
+    520px;
+
+  height:
+    520px;
+
+  border-radius:
+    50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(89, 100, 238, 0.09),
+      rgba(89, 100, 238, 0)
+      70%
+    );
+
+  pointer-events:
+    none;
+}
+
+
+.landing-footer-shell::after {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  left:
+    -180px;
+
+  bottom:
+    -250px;
+
+  width:
+    520px;
+
+  height:
+    420px;
+
+  border-radius:
+    50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(40, 177, 207, 0.055),
+      rgba(40, 177, 207, 0)
+      72%
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/* =========================================
+   MAIN GRID
+   ========================================= */
+
+.landing-footer-main {
+  position:
+    relative;
+
+  z-index:
+    2;
+
+  display:
+    grid;
+
+  /*
+   * Two link columns now instead of
+   * three because Workflow is removed.
+   */
+  grid-template-columns:
+    minmax(320px, 2fr)
+    minmax(140px, 0.7fr)
+    minmax(140px, 0.7fr);
+
+  gap:
+    clamp(38px, 6vw, 90px);
+
+  padding-bottom:
+    52px;
+}
+
+
+/* =========================================
+   BRAND
+   ========================================= */
+
+.landing-footer-brand-area {
+  max-width:
+    410px;
+}
+
+
+.landing-footer-brand {
+  display:
+    inline-block;
+
+  color:
+    #172541;
+
+  font-size:
+    15px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.085em;
+
+  line-height:
+    1;
+
+  text-decoration:
+    none;
+
+  transition:
+    opacity
+    180ms ease;
+}
+
+
+.landing-footer-brand:hover {
+  opacity:
+    0.68;
+}
+
+
+.landing-footer-description {
+  max-width:
+    380px;
+
+  margin:
+    17px
+    0
+    0;
+
+  color:
+    #60718a;
+
+  font-size:
+    13px;
+
+  line-height:
+    1.75;
+}
+
+
+/* =========================================
+   COLUMNS
+   ========================================= */
+
+.landing-footer-column {
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  align-items:
+    flex-start;
+
+  gap:
+    11px;
+}
+
+
+.landing-footer-column h2 {
+  margin:
+    0
+    0
+    7px;
+
+  color:
+    #718197;
+
+  font-size:
+    9px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.105em;
+
+  line-height:
+    1;
+
+  text-transform:
+    uppercase;
+}
+
+
+.landing-footer-column a {
+  color:
+    #455873;
+
+  font-size:
+    11px;
+
+  font-weight:
+    650;
+
+  line-height:
+    1.4;
+
+  text-decoration:
+    none;
+
+  transition:
+    color
+    180ms ease,
+
+    transform
+    180ms ease;
+}
+
+
+.landing-footer-column a:hover {
+  color:
+    #172541;
+
+  transform:
+    translateX(2px);
+}
+
+
+/* =========================================
+   DIVIDER
+   ========================================= */
+
+.landing-footer-divider {
+  position:
+    relative;
+
+  z-index:
+    2;
+
+  width:
+    100%;
+
+  height:
+    1px;
+
+  background:
+    rgba(29, 47, 77, 0.1);
+}
+
+
+/* =========================================
+   BOTTOM ROW
+   ========================================= */
+
+.landing-footer-bottom {
+  position:
+    relative;
+
+  z-index:
+    2;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    24px;
+
+  padding:
+    20px
+    0
+    2px;
+}
+
+
+/* =========================================
+   LEGAL
+   ========================================= */
+
+.landing-footer-legal {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    8px
+    18px;
+}
+
+
+.landing-footer-legal span {
+  color:
+    #718096;
+
+  font-size:
+    9px;
+
+  font-weight:
+    650;
+
+  line-height:
+    1.5;
+}
+
+
+/* =========================================
+   BACK TO TOP
+   ========================================= */
+
+.landing-footer-top {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    8px;
+
+  color:
+    #445772;
+
+  font-size:
+    10px;
+
+  font-weight:
+    750;
+
+  line-height:
+    1;
+
+  text-decoration:
+    none;
+
+  transition:
+    color
+    180ms ease,
+
+    transform
+    180ms ease;
+}
+
+
+.landing-footer-top span {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  width:
+    25px;
+
+  height:
+    25px;
+
+  border:
+    1px solid
+    rgba(29, 47, 77, 0.13);
+
+  border-radius:
+    50%;
+
+  color:
+    #41516a;
+
+  background:
+    rgba(255, 255, 255, 0.34);
+
+  transition:
+    background
+    180ms ease,
+
+    color
+    180ms ease,
+
+    transform
+    180ms ease;
+}
+
+
+.landing-footer-top:hover {
+  color:
+    #172541;
+
+  transform:
+    translateY(-1px);
+}
+
+
+.landing-footer-top:hover span {
+  color:
+    #ffffff;
+
+  background:
+    #172541;
+
+  transform:
+    translateY(-2px);
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .landing-footer-shell {
+    width:
+      min(
+        calc(100% - 36px),
+        900px
+      );
+  }
+
+
+  .landing-footer-main {
+    grid-template-columns:
+      1.6fr
+      1fr
+      1fr;
+
+    gap:
+      34px;
+  }
+
+
+  .landing-footer-brand-area {
+    max-width:
+      310px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 680px) {
+
+  .landing-footer {
+    padding-top:
+      20px;
+  }
+
+
+  .landing-footer-shell {
+    width:
+      calc(100% - 28px);
+
+    padding:
+      42px
+      22px
+      22px;
+
+    border-radius:
+      24px
+      24px
+      0
+      0;
+  }
+
+
+  .landing-footer-main {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap:
+      38px
+      24px;
+
+    padding-bottom:
+      38px;
+  }
+
+
+  .landing-footer-brand-area {
+    grid-column:
+      1 / -1;
+
+    max-width:
+      100%;
+  }
+
+
+  .landing-footer-description {
+    max-width:
+      390px;
+
+    margin-top:
+      14px;
+
+    font-size:
+      12px;
+
+    line-height:
+      1.7;
+  }
+
+
+  .landing-footer-column {
+    gap:
+      10px;
+  }
+
+
+  .landing-footer-column h2 {
+    margin-bottom:
+      6px;
+  }
+
+
+  .landing-footer-column a {
+    font-size:
+      10px;
+  }
+
+
+  .landing-footer-bottom {
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap:
+      18px;
+
+    padding-top:
+      17px;
+  }
+
+
+  .landing-footer-legal {
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap:
+      5px;
+  }
+
+
+  .landing-footer-top {
+    align-self:
+      flex-start;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL SCREENS
+   ========================================= */
+
+@media (max-width: 390px) {
+
+  .landing-footer-main {
+    gap:
+      32px
+      18px;
+  }
+
+
+  .landing-footer-column a {
+    font-size:
+      9px;
+  }
+
+
+  .landing-footer-description {
+    font-size:
+      11px;
+  }
+}
+
+
+/* =========================================
+   REDUCED MOTION
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .landing-footer-column a,
+  .landing-footer-top,
+  .landing-footer-top span,
+  .landing-footer-brand {
+    transition:
+      none;
+  }
+}

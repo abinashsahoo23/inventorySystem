@@ -1,0 +1,1079 @@
+/* =========================================
+   ROLES
+   ========================================= */
+
+.inventory-roles {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    var(--color-background);
+
+  padding:
+    clamp(68px, 6vw, 96px)
+    0
+    clamp(86px, 8vw, 116px);
+}
+
+
+/* =========================================
+   CONTAINER
+   ========================================= */
+
+.inventory-roles-container {
+  width:
+    min(calc(100% - 48px), 1240px);
+
+  margin:
+    0 auto;
+}
+
+
+/* =========================================
+   INTRO
+   ========================================= */
+
+.inventory-roles-intro {
+  max-width:
+    850px;
+
+  margin:
+    0
+    auto;
+
+  text-align:
+    center;
+
+  opacity:
+    0;
+
+  transform:
+    translateY(26px);
+
+  transition:
+    opacity 700ms ease,
+    transform 800ms
+    cubic-bezier(.16, 1, .3, 1);
+}
+
+
+.inventory-roles.is-visible
+.inventory-roles-intro {
+  opacity:
+    1;
+
+  transform:
+    translateY(0);
+}
+
+
+/* =========================================
+   KICKER
+   ========================================= */
+
+.inventory-roles-kicker {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    9px;
+
+  color:
+    #5964ee;
+
+  font-size:
+    11px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.1em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.inventory-roles-kicker::before,
+.inventory-roles-kicker::after {
+  content:
+    "";
+
+  width:
+    22px;
+
+  height:
+    1px;
+
+  background:
+    #5964ee;
+}
+
+
+/* =========================================
+   HEADING
+   ========================================= */
+
+.inventory-roles-intro h2 {
+  margin:
+    15px
+    0
+    0;
+
+  color:
+    #101b36;
+
+  font-size:
+    clamp(3.35rem, 6vw, 5.8rem);
+
+  font-weight:
+    700;
+
+  line-height:
+    0.94;
+
+  letter-spacing:
+    -0.078em;
+}
+
+
+.inventory-roles-intro p {
+  max-width:
+    690px;
+
+  margin:
+    22px
+    auto
+    0;
+
+  color:
+    #596b84;
+
+  font-size:
+    17px;
+
+  line-height:
+    1.7;
+}
+
+
+/* =========================================
+   STAGE
+   ========================================= */
+
+.inventory-roles-stage {
+  width:
+    100%;
+
+  margin-top:
+    clamp(44px, 5vw, 62px);
+
+  opacity:
+    0;
+
+  transform:
+    translateY(32px);
+
+  transition:
+    opacity 850ms ease 100ms,
+    transform 900ms
+    cubic-bezier(.16, 1, .3, 1)
+    100ms;
+}
+
+
+.inventory-roles.is-visible
+.inventory-roles-stage {
+  opacity:
+    1;
+
+  transform:
+    translateY(0);
+}
+
+
+/* =========================================
+   ROLE FIELD
+   ========================================= */
+
+.inventory-roles-field {
+  position:
+    relative;
+
+  width:
+    100%;
+
+  height:
+    clamp(440px, 41vw, 510px);
+
+  overflow:
+    hidden;
+
+  border:
+    1px solid
+    rgba(31, 49, 82, 0.14);
+
+  border-radius:
+    30px;
+
+  /*
+   * Main field surface.
+   *
+   * Slightly darker/cooler than the page so
+   * the field visibly separates from the landing
+   * background without becoming a different theme.
+   */
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.82) 0%,
+      rgba(247, 249, 255, 0.94) 42%,
+      rgba(235, 241, 255, 0.96) 100%
+    );
+
+  /*
+   * Layered depth:
+   *
+   * 1. near shadow
+   * 2. wider soft shadow
+   * 3. subtle internal lift
+   */
+  box-shadow:
+    0 14px 30px
+    rgba(19, 35, 65, 0.06),
+
+    0 34px 85px
+    rgba(31, 48, 83, 0.075),
+
+    inset 0 1px 0
+    rgba(255, 255, 255, 0.9),
+
+    inset 0 -28px 55px
+    rgba(35, 52, 84, 0.035);
+
+  /*
+   * Slight outer highlight makes the card
+   * feel physically raised from the page.
+   */
+  outline:
+    1px solid
+    rgba(255, 255, 255, 0.5);
+
+  outline-offset:
+    -1px;
+
+  /*
+   * Role changes are controlled by wheel/touch,
+   * not native scrolling.
+   */
+  touch-action:
+    pan-y;
+
+  cursor:
+    ns-resize;
+
+  isolation:
+    isolate;
+}
+
+
+.inventory-roles-field:focus-visible {
+  outline:
+    2px solid
+    rgba(89, 100, 238, 0.4);
+
+  outline-offset:
+    4px;
+}
+
+
+/* =========================================
+   FIELD LIGHTING
+   ========================================= */
+
+/*
+ * Large soft light in the upper-right.
+ */
+
+.inventory-roles-field::before {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  top:
+    -240px;
+
+  right:
+    -120px;
+
+  z-index:
+    0;
+
+  width:
+    620px;
+
+  height:
+    620px;
+
+  border-radius:
+    50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(98, 108, 241, 0.14) 0%,
+      rgba(98, 108, 241, 0.07) 24%,
+      rgba(98, 108, 241, 0) 70%
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/*
+ * Cool light near the lower-left.
+ */
+
+.inventory-roles-field::after {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  left:
+    -190px;
+
+  bottom:
+    -230px;
+
+  z-index:
+    0;
+
+  width:
+    560px;
+
+  height:
+    420px;
+
+  border-radius:
+    50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(37, 183, 218, 0.1) 0%,
+      rgba(37, 183, 218, 0.04) 30%,
+      rgba(37, 183, 218, 0) 72%
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/* =========================================
+   FIELD INNER SURFACE
+   ========================================= */
+
+.inventory-roles-field-inner {
+  position:
+    absolute;
+
+  inset:
+    0;
+
+  z-index:
+    1;
+
+  pointer-events:
+    none;
+
+  border-radius:
+    inherit;
+
+  /*
+   * Soft highlight around the inner edge.
+   */
+  box-shadow:
+    inset 0 1px 0
+    rgba(255, 255, 255, 0.72),
+
+    inset 1px 0 0
+    rgba(255, 255, 255, 0.25),
+
+    inset -1px 0 0
+    rgba(54, 74, 108, 0.035);
+}
+
+
+/* =========================================
+   ROLE
+   ========================================= */
+
+.inventory-role {
+  position:
+    absolute;
+
+  inset:
+    0;
+
+  z-index:
+    4;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  padding:
+    clamp(42px, 5vw, 70px)
+    clamp(30px, 5vw, 70px);
+
+  will-change:
+    transform,
+    opacity;
+
+  transition:
+    transform
+    430ms
+    cubic-bezier(.16, 1, .3, 1),
+
+    opacity
+    360ms ease;
+}
+
+
+/* =========================================
+   ROLE MAIN
+   ========================================= */
+
+.inventory-role-main {
+  position:
+    relative;
+
+  z-index:
+    6;
+
+  width:
+    min(100%, 930px);
+
+  margin:
+    0
+    auto;
+
+  text-align:
+    left;
+}
+
+
+/* =========================================
+   ROLE LABEL
+   ========================================= */
+
+.inventory-role-label {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    9px;
+
+  color:
+    #5964ee;
+
+  font-size:
+    10px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    0.1em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.inventory-role-label::before {
+  content:
+    "";
+
+  width:
+    26px;
+
+  height:
+    1px;
+
+  background:
+    #5964ee;
+}
+
+
+/* =========================================
+   ROLE NAME
+   ========================================= */
+
+.inventory-role-main h3 {
+  max-width:
+    1000px;
+
+  margin:
+    15px
+    0
+    0;
+
+  color:
+    #172441;
+
+  font-size:
+    clamp(3rem, 5.8vw, 6rem);
+
+  font-weight:
+    700;
+
+  line-height:
+    0.92;
+
+  letter-spacing:
+    -0.078em;
+}
+
+
+/* =========================================
+   ROLE TITLE
+   ========================================= */
+
+.inventory-role-title {
+  max-width:
+    800px;
+
+  margin:
+    21px
+    0
+    0;
+
+  color:
+    #354963;
+
+  font-size:
+    clamp(1.3rem, 2.1vw, 1.85rem);
+
+  font-weight:
+    700;
+
+  line-height:
+    1.2;
+
+  letter-spacing:
+    -0.035em;
+}
+
+
+/* =========================================
+   DESCRIPTION
+   ========================================= */
+
+.inventory-role-description {
+  max-width:
+    710px;
+
+  margin:
+    15px
+    0
+    0;
+
+  color:
+    #66768e;
+
+  font-size:
+    15px;
+
+  line-height:
+    1.75;
+}
+
+
+/* =========================================
+   AREAS
+   ========================================= */
+
+.inventory-role-areas {
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    9px;
+
+  margin-top:
+    24px;
+}
+
+
+.inventory-role-areas span {
+  padding:
+    8px
+    11px;
+
+  border:
+    1px solid
+    rgba(35, 51, 82, 0.1);
+
+  border-radius:
+    999px;
+
+  color:
+    #65748b;
+
+  background:
+    rgba(255, 255, 255, 0.54);
+
+  font-size:
+    10px;
+
+  font-weight:
+    700;
+
+  box-shadow:
+    0 2px 6px
+    rgba(28, 43, 72, 0.025);
+}
+
+
+/* =========================================
+   ACTIVE ROLE MARKER
+   ========================================= */
+
+.inventory-role-current::before {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  left:
+    clamp(22px, 4vw, 54px);
+
+  top:
+    50%;
+
+  width:
+    3px;
+
+  height:
+    64px;
+
+  border-radius:
+    0
+    2px
+    2px
+    0;
+
+  background:
+    #5964ee;
+
+  transform:
+    translateY(-50%);
+
+  box-shadow:
+    0 0 18px
+    rgba(89, 100, 238, 0.18);
+}
+
+
+/* =========================================
+   ENTER FROM BELOW
+   ========================================= */
+
+.inventory-role-current.is-entering.next {
+  animation:
+    role-enter-from-bottom
+    430ms
+    cubic-bezier(.16, 1, .3, 1)
+    both;
+}
+
+
+@keyframes role-enter-from-bottom {
+
+  0% {
+    opacity:
+      0;
+
+    transform:
+      translate3d(
+        0,
+        34px,
+        0
+      );
+  }
+
+  100% {
+    opacity:
+      1;
+
+    transform:
+      translate3d(
+        0,
+        0,
+        0
+      );
+  }
+
+}
+
+
+/* =========================================
+   ENTER FROM ABOVE
+   ========================================= */
+
+.inventory-role-current.is-entering.previous {
+  animation:
+    role-enter-from-top
+    430ms
+    cubic-bezier(.16, 1, .3, 1)
+    both;
+}
+
+
+@keyframes role-enter-from-top {
+
+  0% {
+    opacity:
+      0;
+
+    transform:
+      translate3d(
+        0,
+        -34px,
+        0
+      );
+  }
+
+  100% {
+    opacity:
+      1;
+
+    transform:
+      translate3d(
+        0,
+        0,
+        0
+      );
+  }
+
+}
+
+
+/* =========================================
+   OLD ROLE EXIT
+   ========================================= */
+
+.inventory-role-previous {
+  z-index:
+    3;
+
+  opacity:
+    1;
+}
+
+
+.inventory-role-previous.next {
+  animation:
+    role-exit-to-top
+    430ms
+    cubic-bezier(.16, 1, .3, 1)
+    both;
+}
+
+
+@keyframes role-exit-to-top {
+
+  0% {
+    opacity:
+      1;
+
+    transform:
+      translate3d(
+        0,
+        0,
+        0
+      );
+  }
+
+  100% {
+    opacity:
+      0;
+
+    transform:
+      translate3d(
+        0,
+        -34px,
+        0
+      );
+  }
+
+}
+
+
+.inventory-role-previous.previous {
+  animation:
+    role-exit-to-bottom
+    430ms
+    cubic-bezier(.16, 1, .3, 1)
+    both;
+}
+
+
+@keyframes role-exit-to-bottom {
+
+  0% {
+    opacity:
+      1;
+
+    transform:
+      translate3d(
+        0,
+        0,
+        0
+      );
+  }
+
+  100% {
+    opacity:
+      0;
+
+    transform:
+      translate3d(
+        0,
+        34px,
+        0
+      );
+  }
+
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 900px) {
+
+  .inventory-roles-container {
+    width:
+      min(calc(100% - 36px), 900px);
+  }
+
+
+  .inventory-roles-field {
+    height:
+      470px;
+  }
+
+
+  .inventory-role {
+    padding:
+      44px
+      36px;
+  }
+
+
+  .inventory-role-main h3 {
+    font-size:
+      clamp(2.8rem, 7vw, 5rem);
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 640px) {
+
+  .inventory-roles {
+    padding:
+      60px
+      0
+      82px;
+  }
+
+
+  .inventory-roles-container {
+    width:
+      calc(100% - 28px);
+  }
+
+
+  .inventory-roles-intro h2 {
+    font-size:
+      clamp(3rem, 14vw, 4.6rem);
+  }
+
+
+  .inventory-roles-intro p {
+    margin-top:
+      19px;
+
+    font-size:
+      15px;
+
+    line-height:
+      1.68;
+  }
+
+
+  .inventory-roles-stage {
+    margin-top:
+      38px;
+  }
+
+
+  .inventory-roles-field {
+    height:
+      450px;
+
+    border-radius:
+      22px;
+
+    box-shadow:
+      0 14px 28px
+      rgba(20, 36, 66, 0.055),
+
+      0 30px 70px
+      rgba(20, 36, 66, 0.06),
+
+      inset 0 1px 0
+      rgba(255, 255, 255, 0.82);
+  }
+
+
+  .inventory-role {
+    padding:
+      36px
+      30px;
+  }
+
+
+  .inventory-role-main {
+    width:
+      100%;
+  }
+
+
+  .inventory-role-label {
+    font-size:
+      9px;
+  }
+
+
+  .inventory-role-main h3 {
+    margin-top:
+      12px;
+
+    font-size:
+      clamp(2.5rem, 12vw, 4rem);
+
+    line-height:
+      0.95;
+  }
+
+
+  .inventory-role-title {
+    margin-top:
+      17px;
+
+    font-size:
+      18px;
+
+    line-height:
+      1.25;
+  }
+
+
+  .inventory-role-description {
+    margin-top:
+      13px;
+
+    font-size:
+      13px;
+
+    line-height:
+      1.72;
+  }
+
+
+  .inventory-role-areas {
+    margin-top:
+      20px;
+
+    gap:
+      7px;
+  }
+
+
+  .inventory-role-areas span {
+    padding:
+      7px
+      9px;
+
+    font-size:
+      9px;
+  }
+
+
+  .inventory-role-current::before {
+    left:
+      9px;
+
+    height:
+      46px;
+  }
+
+
+  .inventory-role-preview {
+    font-size:
+      2rem;
+  }
+}
+
+
+/* =========================================
+   REDUCED MOTION
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .inventory-roles-intro,
+  .inventory-roles-stage,
+  .inventory-role,
+  .inventory-role-current.is-entering.next,
+  .inventory-role-current.is-entering.previous,
+  .inventory-role-previous.next,
+  .inventory-role-previous.previous {
+    animation:
+      none;
+
+    transition:
+      none;
+  }
+}

@@ -1,0 +1,1134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\notificationdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\notificationdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\warehousedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\warehousedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\warehousescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\customerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\reportdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\reportdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260828111335_addfinanceexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260828111335_addfinanceexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\financedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\financedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\taskdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\taskhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\taskhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\salesdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\salesdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\purchasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\purchasedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\purchasedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\supplierdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\supplierdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\inventorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\inventorydtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260825110933_add customer and sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260825110933_add customer and sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\salesorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\salesorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\salesorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260825033016_add-suppliers and add-purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260825033016_add-suppliers and add-purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\purchaseorderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\productstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\productstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\roledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\roledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\dtos\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\dtos\\admindtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\controllers\\activitylogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\controllers\\activitylogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\helpers\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\helpers\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\inventoryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\inventoryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260827034946_categoryandbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260827034946_categoryandbrand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260828074556_addtaskmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260828074556_addtaskmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260828061052_addsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260828061052_addsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260828050309_addwarehouseemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260828050309_addwarehouseemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260828040154_completeproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260828040154_completeproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|c:\\users\\asus\\desktop\\inventoryproject\\inventoryapi\\inventoryapi\\migrations\\20260831013905_addnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryApi\\InventoryApi.csproj|solutionrelative:inventoryapi\\migrations\\20260831013905_addnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260908045014_AddNotificationPreferences.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260908045014_AddNotificationPreferences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T04:50:15.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAFMCAAAAAAAAAAAiwGkCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T12:26:56.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAiwHABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T03:54:05.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\NotificationDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\NotificationDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\NotificationDtos.cs*",
+              "RelativeToolTip": "InventoryApi\\DTOs\\NotificationDtos.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAzwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:36:32.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACcEAAAAAAAAAAAmwEAEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:32:51.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\NotificationsController.cs*",
+              "RelativeToolTip": "InventoryApi\\Controllers\\NotificationsController.cs*",
+              "ViewState": "AgIAAMsDAAAAAAAAAAAmwOEDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:37:56.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\ProductDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAA7wFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:29:26.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WarehousesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\WarehousesController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\WarehousesController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\WarehousesController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\WarehousesController.cs",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAowJkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:31:22.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\User.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\User.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:22:25.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAiwHEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T03:53:25.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA3wD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:28:09.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WarehouseDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\WarehouseDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\WarehouseDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\WarehouseDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\WarehouseDtos.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwDEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:28:45.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAABsDAAAAAAAAAAAowDADAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:04:26.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\CustomerDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\CustomerDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\CustomerDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\CustomerDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:02:06.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20260828111335_AddFinanceExpenses.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828111335_AddFinanceExpenses.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260828111335_AddFinanceExpenses.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828111335_AddFinanceExpenses.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260828111335_AddFinanceExpenses.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T11:13:36.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAowNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:06:01.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:03:52.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FinanceDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\FinanceDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\FinanceDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\FinanceDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\FinanceDtos.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T11:02:58.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FinanceController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\FinanceController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\FinanceController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\FinanceController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\FinanceController.cs",
+              "ViewState": "AgIAAKcBAAAAAAAAAAAIwLEBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T11:03:47.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\ReportDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\ReportDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\ReportDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\ReportDtos.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAQwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:23:16.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Notification.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Notification.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:35:58.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20260831013905_AddNotifications.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260831013905_AddNotifications.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260831013905_AddNotifications.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260831013905_AddNotifications.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260831013905_AddNotifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:39:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "InventoryApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAIwNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:25:37.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAQCAAAAAAAAAAAIwBACAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T01:24:05.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Expense.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Expense.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T11:02:21.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAPACAAAAAAAAAAAAAAMDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:32:31.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\TaskDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\TaskDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\TaskDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\TaskDtos.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:31:27.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskHistory.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\TaskHistory.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\TaskHistory.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\TaskHistory.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\TaskHistory.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:30:44.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Task.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Task.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA6wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:29:57.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SupplierDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\SupplierDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\SupplierDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\SupplierDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\SupplierDtos.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:13:31.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20260828074556_AddTaskManagement.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828074556_AddTaskManagement.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260828074556_AddTaskManagement.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828074556_AddTaskManagement.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260828074556_AddTaskManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T07:45:56.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\SuppliersController.cs",
+              "ViewState": "AgIAAAICAAAAAAAAAAAswFsCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:15:09.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PurchaseDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\PurchaseDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\PurchaseDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\PurchaseDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\PurchaseDtos.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:14:08.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PurchaseController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\PurchaseController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\PurchaseController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\PurchaseController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\PurchaseController.cs",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAgwOwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:15:59.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Supplier.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Supplier.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:10:47.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SalesDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\SalesDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\SalesDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\SalesDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\SalesDtos.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA8wGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:03:22.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Warehouse.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Warehouse.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Warehouse.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:24:43.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20260828061052_AddSupplier.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828061052_AddSupplier.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260828061052_AddSupplier.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828061052_AddSupplier.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260828061052_AddSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:10:52.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20260828050309_AddwarehouseEmployees.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828050309_AddwarehouseEmployees.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260828050309_AddwarehouseEmployees.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828050309_AddwarehouseEmployees.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260828050309_AddwarehouseEmployees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T05:03:09.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAFYCAAAAAAAAAAAowFMDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:30:14.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InventoryDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\InventoryDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\InventoryDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\InventoryDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\InventoryDtos.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA/wHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:27:47.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Product.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Product.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:23:07.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20260828040154_CompleteProductDetails.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828040154_CompleteProductDetails.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260828040154_CompleteProductDetails.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260828040154_CompleteProductDetails.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260828040154_CompleteProductDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T04:01:55.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SalesOrder.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\SalesOrder.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\SalesOrder.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\SalesOrder.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\SalesOrder.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:00:54.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SalesOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\SalesOrderItem.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\SalesOrderItem.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\SalesOrderItem.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\SalesOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:01:32.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20260827034946_CategoryAndBrand.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260827034946_CategoryAndBrand.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260827034946_CategoryAndBrand.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260827034946_CategoryAndBrand.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260827034946_CategoryAndBrand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T03:49:46.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Customer.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:00:09.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Category.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T03:35:10.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Brand.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T03:35:59.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "InventoryApi\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAmwCIBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:28:52.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20260825110933_Add Customer and Sales.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260825110933_Add Customer and Sales.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260825110933_Add Customer and Sales.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260825110933_Add Customer and Sales.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260825110933_Add Customer and Sales.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T11:09:33.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260825033016_Add-Suppliers And Add-Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260825033016_Add-Suppliers And Add-Purchase.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Migrations\\20260825033016_Add-Suppliers And Add-Purchase.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Migrations\\20260825033016_Add-Suppliers And Add-Purchase.cs",
+              "RelativeToolTip": "InventoryApi\\Migrations\\20260825033016_Add-Suppliers And Add-Purchase.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:30:16.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PurchaseOrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\PurchaseOrderItem.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\PurchaseOrderItem.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\PurchaseOrderItem.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\PurchaseOrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:12:29.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\PurchaseOrder.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\PurchaseOrder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T03:11:47.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Program.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Program.cs",
+              "RelativeToolTip": "InventoryApi\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:33:25.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T10:28:57.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "StockMovement.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\StockMovement.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\StockMovement.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\StockMovement.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\StockMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:26:46.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:38:15.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ProductStock.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\ProductStock.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\ProductStock.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\ProductStock.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\ProductStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T09:25:48.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RoleDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\RoleDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\RoleDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\RoleDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\RoleDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:33:49.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Role.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:23:16.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\RolePermission.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\RolePermission.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:25:50.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\Permission.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\Permission.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:24:33.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Models\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Models\\ActivityLog.cs",
+              "RelativeToolTip": "InventoryApi\\Models\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T12:31:28.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AdminDtos.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\AdminDtos.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\DTOs\\AdminDtos.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\DTOs\\AdminDtos.cs",
+              "RelativeToolTip": "InventoryApi\\DTOs\\AdminDtos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T06:02:41.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Helpers\\Validation.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Helpers\\Validation.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Helpers\\Validation.cs",
+              "RelativeToolTip": "InventoryApi\\Helpers\\Validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:10:42.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ActivityLogsController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ActivityLogsController.cs",
+              "RelativeDocumentMoniker": "InventoryApi\\Controllers\\ActivityLogsController.cs",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\Controllers\\ActivityLogsController.cs",
+              "RelativeToolTip": "InventoryApi\\Controllers\\ActivityLogsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T12:34:55.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\appsettings.json",
+              "RelativeToolTip": "InventoryApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T10:20:30.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "InventoryApi.csproj",
+              "DocumentMoniker": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\InventoryApi.csproj",
+              "RelativeDocumentMoniker": "InventoryApi\\InventoryApi.csproj",
+              "ToolTip": "C:\\Users\\asus\\Desktop\\InventoryProject\\InventoryApi\\InventoryApi\\InventoryApi.csproj",
+              "RelativeToolTip": "InventoryApi\\InventoryApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-17T10:21:34.1Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

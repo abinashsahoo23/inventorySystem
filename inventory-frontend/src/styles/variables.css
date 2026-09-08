@@ -1,0 +1,272 @@
+:root {
+  /* =========================================================
+     INVENTORY DESIGN SYSTEM
+     One visual language shared by landing, auth and app UI.
+     ========================================================= */
+
+  /* ---------- Brand ---------- */
+  --color-primary: #635bff;
+  --color-primary-hover: #5148e6;
+  --color-secondary: #0f9f95;
+  --color-accent: #18b7d8;
+  --color-accent-soft: #dff8fc;
+
+  /* ---------- Core surfaces ---------- */
+  --color-background: #f3f7ff;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f8fbff;
+  --color-surface-muted: #eef3fa;
+  --color-surface-dark: #172554;
+  --color-surface-dark-2: #101d42;
+  --color-surface-dark-3: #0c1633;
+
+  /* ---------- Text ---------- */
+  --color-text: #14213d;
+  --color-text-strong: #101b36;
+  --color-text-muted: #526175;
+  --color-text-subtle: #71809a;
+  --color-text-placeholder: #91a0b6;
+  --color-text-light: #ffffff;
+
+  /* ---------- Status ---------- */
+  --color-success: #18865b;
+  --color-warning: #d98b00;
+  --color-danger: #d84a5a;
+  --color-info: #1976d2;
+
+  --color-primary-soft: rgba(99, 91, 255, 0.10);
+  --color-secondary-soft: rgba(15, 159, 149, 0.10);
+  --color-accent-soft-alpha: rgba(24, 183, 216, 0.10);
+  --color-success-soft: rgba(24, 134, 91, 0.10);
+  --color-warning-soft: rgba(217, 139, 0, 0.11);
+  --color-danger-soft: rgba(216, 74, 90, 0.10);
+  --color-info-soft: rgba(25, 118, 210, 0.10);
+  --color-neutral-soft: rgba(82, 97, 117, 0.08);
+
+  /* ---------- Borders ---------- */
+  --border-subtle: rgba(20, 33, 61, 0.07);
+  --border-default: rgba(20, 33, 61, 0.12);
+  --border-strong: rgba(20, 33, 61, 0.20);
+  --border-focus: rgba(99, 91, 255, 0.58);
+
+  /* ---------- Typography ---------- */
+  --font-primary:
+    "IBM Plex Sans",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-heading: var(--font-primary);
+
+  --font-mono:
+    "IBM Plex Mono",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.625rem;
+  --text-5xl: 3.5rem;
+  --text-6xl: 4.5rem;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* ---------- Spacing ---------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ---------- Shape ---------- */
+  --radius-xs: 0.4rem;
+  --radius-sm: 0.55rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 0.95rem;
+  --radius-xl: 1.1rem;
+  --radius-2xl: 1.4rem;
+  --radius-3xl: 1.75rem;
+  --radius-full: 9999px;
+
+  /* Inputs/buttons/cards use these shared radii. */
+  --radius-control: 0.8rem;
+  --radius-button: 0.9rem;
+  --radius-panel: 1.25rem;
+  --radius-section: 1.5rem;
+
+  /* ---------- Elevation ---------- */
+  --shadow-xs: 0 1px 3px rgba(20, 33, 61, 0.04);
+  --shadow-sm: 0 4px 14px rgba(20, 33, 61, 0.06);
+  --shadow-md: 0 10px 28px rgba(20, 33, 61, 0.08);
+  --shadow-lg: 0 18px 42px rgba(20, 33, 61, 0.11);
+  --shadow-xl: 0 28px 70px rgba(20, 33, 61, 0.14);
+
+  /* ---------- Surfaces / glass ---------- */
+  --surface-glass: rgba(255, 255, 255, 0.76);
+  --surface-glass-strong: rgba(255, 255, 255, 0.92);
+  --surface-glass-soft: rgba(255, 255, 255, 0.60);
+  --surface-overlay: rgba(99, 91, 255, 0.04);
+
+  /* ---------- Gradients ---------- */
+  --gradient-brand:
+    linear-gradient(
+      135deg,
+      #635bff 0%,
+      #18b7d8 100%
+    );
+
+  --gradient-brand-hover:
+    linear-gradient(
+      135deg,
+      #5148e6 0%,
+      #109ebd 100%
+    );
+
+  --gradient-aurora:
+    linear-gradient(
+      135deg,
+      #635bff 0%,
+      #18b7d8 45%,
+      #67d8c7 100%
+    );
+
+  --gradient-soft:
+    linear-gradient(
+      135deg,
+      #eef2ff 0%,
+      #e8faff 100%
+    );
+
+  --gradient-hero:
+    radial-gradient(
+      circle at 20% 10%,
+      rgba(99, 91, 255, 0.18),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(24, 183, 216, 0.18),
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(103, 216, 199, 0.14),
+      transparent 50%
+    );
+
+  --gradient-page-glow:
+    radial-gradient(
+      circle at 8% 0%,
+      rgba(99, 91, 255, 0.065),
+      transparent 31%
+    ),
+    radial-gradient(
+      circle at 92% 12%,
+      rgba(24, 183, 216, 0.06),
+      transparent 31%
+    );
+
+  /* ---------- Motion ---------- */
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --duration-fast: 180ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+
+  --hover-lift: translateY(-2px);
+  --hover-lift-lg: translateY(-6px);
+
+  /* ---------- Blur ---------- */
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 24px;
+
+  /* ---------- Layout ---------- */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1240px;
+  --container-2xl: 1400px;
+
+  --header-height: 4.5rem;
+  --section-space: clamp(5rem, 9vw, 8rem);
+  --section-space-sm: 4rem;
+
+  /* ---------- App shell ---------- */
+  --sidebar-width: 264px;
+  --sidebar-width-collapsed: 84px;
+  --topbar-height: 4.25rem;
+
+  --sidebar-bg:
+    linear-gradient(
+      190deg,
+      #172554 0%,
+      #101d42 55%,
+      #0c1633 100%
+    );
+
+  --sidebar-text: rgba(255, 255, 255, 0.86);
+  --sidebar-text-muted: rgba(255, 255, 255, 0.54);
+  --sidebar-border: rgba(255, 255, 255, 0.09);
+  --sidebar-item-hover: rgba(255, 255, 255, 0.07);
+  --sidebar-item-active: rgba(99, 91, 255, 0.16);
+
+  /* ---------- Charts ---------- */
+  --chart-1: #635bff;
+  --chart-2: #18b7d8;
+  --chart-3: #0f9f95;
+  --chart-4: #67d8c7;
+  --chart-5: #d98b00;
+  --chart-6: #ef6461;
+  --chart-7: #8f7ee8;
+  --chart-8: #94a3b8;
+
+  /* ---------- Legacy aliases kept for existing components ---------- */
+  --color-border: var(--border-default);
+  --color-accent-strong-soft: var(--color-accent-soft-alpha);
+  --c-dark: var(--color-text);
+  --c-cream: var(--color-background);
+  --c-coral: var(--color-primary);
+  --c-sage: var(--color-text-muted);
+
+  /* ---------- 3D ---------- */
+  --perspective-card: 1200px;
+  --perspective-deep: 1800px;
+
+  /* ---------- Z-index ---------- */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 500;
+  --z-modal: 1000;
+  --z-tooltip: 2000;
+}

@@ -1,0 +1,27 @@
+.landing-page {
+  --landing-ink: #101d42;
+  --landing-muted: #65748b;
+  --landing-line: rgba(20, 33, 61, 0.08);
+  min-height: 100svh;
+  overflow-x: clip;
+  color: var(--landing-ink);
+  background: #f7f9ff;
+}
+
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+
+.landing-page a { color: inherit; }
+.landing-main { position: relative; overflow: clip; }
+.landing-main > section { scroll-margin-top: 95px; }
+
+.landing-page ::selection {
+  color: #fff;
+  background: #635bff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-page html { scroll-behavior: auto; }
+}
