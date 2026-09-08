@@ -1,9 +1,6 @@
 import { getCurrentUser } from "./components/auth/session";
 
-policy.WithOrigins(
-    "http://localhost:5173",
-    "https://inventory-system-ten-navy.vercel.app"
-)
+const BASE_URL = "https://localhost:7251/api";
 
 function currentUserHeaders() {
   const user = getCurrentUser();
