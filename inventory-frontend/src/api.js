@@ -1,6 +1,6 @@
 import { getCurrentUser } from "./components/auth/session";
 
-const BASE_URL = "https://localhost:7251/api";
+const BASE_URL = "https://inventory-system-sisd.vercel.app/api";
 
 function currentUserHeaders() {
   const user = getCurrentUser();
