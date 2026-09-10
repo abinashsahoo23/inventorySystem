@@ -48,6 +48,12 @@
         public string Phone { get; set; } = string.Empty;
     }
 
+    public class AccountInfoDto
+    {
+        public string Status { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+    }
+
     public class ChangePasswordDto
     {
         public string Email { get; set; } = string.Empty;

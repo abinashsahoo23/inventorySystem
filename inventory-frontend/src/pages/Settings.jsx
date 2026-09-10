@@ -37,6 +37,56 @@ export default function Settings() {
   const [savingProfile, setSavingProfile] =
     useState(false);
 
+  const [accountStatus, setAccountStatus] =
+    useState("");
+
+  const [memberSince, setMemberSince] =
+    useState(null);
+
+  const [loadingAccount, setLoadingAccount] =
+    useState(true);
+
+  const [accountError, setAccountError] =
+    useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadAccountInfo() {
+      try {
+        const info =
+          await api.getMyAccountInfo();
+
+        if (cancelled) return;
+
+        setAccountStatus(
+          info.status
+        );
+        setMemberSince(
+          info.createdAt
+        );
+      } catch (err) {
+        if (!cancelled) {
+          setAccountError(
+            err instanceof Error
+              ? err.message
+              : "Unable to load account info."
+          );
+        }
+      } finally {
+        if (!cancelled) {
+          setLoadingAccount(false);
+        }
+      }
+    }
+
+    loadAccountInfo();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const [notifyLowStock, setNotifyLowStock] =
     useState(true);
 
@@ -589,6 +639,81 @@ export default function Settings() {
               : "Save Profile"}
           </button>
         </form>
+      </div>
+
+      <div className="bg-white rounded-4 shadow p-4 mb-4">
+        <h5 className="mb-4">
+          Account
+        </h5>
+
+        {loadingAccount ? (
+          <div className="text-muted small">
+            Loading...
+          </div>
+        ) : accountError ? (
+          <div
+            className="alert alert-danger py-2"
+            role="alert"
+          >
+            {accountError}
+          </div>
+        ) : (
+          <div className="row g-3">
+            {/* =================================================
+                ACCOUNT STATUS
+            ================================================== */}
+
+            <div className="col-md-6">
+              <div className="p-2 bg-light rounded-3">
+                <div className="text-muted small">
+                  Account Status
+                </div>
+                <div className="d-flex align-items-center gap-2 mt-1">
+                  <span
+                    style={{
+                      width: 8,
+                      height: 8,
+                      borderRadius: "50%",
+                      display: "inline-block",
+                      backgroundColor:
+                        accountStatus ===
+                        "Approved"
+                          ? "#198754"
+                          : "#ffc107",
+                    }}
+                  />
+                  {accountStatus}
+                </div>
+              </div>
+            </div>
+
+            {/* =================================================
+                MEMBER SINCE
+            ================================================== */}
+
+            <div className="col-md-6">
+              <div className="p-2 bg-light rounded-3">
+                <div className="text-muted small">
+                  Member Since
+                </div>
+                <div className="mt-1">
+                  {memberSince
+                    ? new Date(
+                        memberSince
+                      ).toLocaleDateString(
+                        undefined,
+                        {
+                          day: "numeric",
+                          month: "short",
+                          year: "numeric",
+                        }
+                      )
+                    : "—"}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="bg-white rounded-4 shadow p-4 mb-4">

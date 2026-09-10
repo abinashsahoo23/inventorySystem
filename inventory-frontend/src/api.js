@@ -1,6 +1,7 @@
 import { getCurrentUser } from "./components/auth/session";
 
-const BASE_URL = "https://inventory-system-sisd.vercel.app/api";
+const BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "https://localhost:7251/api";
 
 function currentUserHeaders() {
   const user = getCurrentUser();
@@ -125,6 +126,12 @@ export const api = {
 
   updateUser: (id, user) =>
     put(`/users/${id}`, user),
+
+  updateMyProfile: (name, phone) =>
+    put("/users/me", { name, phone }),
+
+  getMyAccountInfo: () =>
+    get("/users/me"),
 
   approveUser: (id) =>
     put(`/users/${id}/approve`),

@@ -266,6 +266,37 @@ namespace InventoryApi.Controllers
         // =========================================================
         // MY PROFILE (SELF-SERVICE — name/phone only, not email/role)
         // =========================================================
+
+        [HttpGet("me")]
+        public async Task<IActionResult> GetMyAccountInfo(
+            [FromHeader(Name = "X-User-Email")] string loggedInEmail)
+        {
+            if (string.IsNullOrWhiteSpace(loggedInEmail))
+            {
+                return BadRequest(new
+                {
+                    message = "You must be logged in to view account info."
+                });
+            }
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == loggedInEmail);
+
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    message = "Account not found."
+                });
+            }
+
+            return Ok(new AccountInfoDto
+            {
+                Status = user.Status,
+                CreatedAt = user.CreatedAt
+            });
+        }
+
         [HttpPut("me")]
         public async Task<IActionResult> UpdateMyProfile(
             UpdateMyProfileDto dto,
