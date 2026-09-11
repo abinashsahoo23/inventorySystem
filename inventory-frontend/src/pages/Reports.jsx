@@ -1,26 +1,5 @@
 import { useEffect, useState } from "react";
-
-const BASE_URL =
-  "https://localhost:7251/api";
-
-async function getReport(path) {
-  const response =
-    await fetch(`${BASE_URL}${path}`);
-
-  const data =
-    await response
-      .json()
-      .catch(() => []);
-
-  if (!response.ok) {
-    throw new Error(
-      data.message ||
-        "Unable to load report."
-    );
-  }
-
-  return data;
-}
+import { api } from "../api";
 
 const reportTypes = [
   {
@@ -50,68 +29,48 @@ const reportTypes = [
 ];
 
 export default function Reports() {
-  const [report, setReport] =
-    useState("inventory");
+  const [report, setReport] = useState("inventory");
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const [data, setData] =
-    useState([]);
-
-  const [loading, setLoading] =
-    useState(false);
-
-  const [error, setError] =
-    useState("");
-
-  async function loadReport(
-    selectedReport
-  ) {
+  async function loadReport(selectedReport) {
     setLoading(true);
     setError("");
 
     try {
-      let path;
+      let result;
 
-      switch (
-        selectedReport
-      ) {
+      switch (selectedReport) {
         case "sales":
-          path =
-            "/reports/sales";
+          result = await api.getSalesReport();
           break;
 
         case "purchases":
-          path =
-            "/reports/purchases";
+          result = await api.getPurchaseReport();
           break;
 
         case "stock-movements":
-          path =
-            "/reports/stock-movements";
+          result = await api.getStockMovementReport();
           break;
 
         case "low-stock":
-          path =
-            "/reports/low-stock";
+          result = await api.getLowStockReport();
           break;
 
         case "user-activity":
-          path =
-            "/reports/user-activity";
+          result = await api.getUserActivityReport();
           break;
 
+        case "inventory":
         default:
-          path =
-            "/reports/inventory";
+          result = await api.getInventoryReport();
+          break;
       }
 
-      const result =
-        await getReport(path);
-
-      setData(result);
+      setData(Array.isArray(result) ? result : []);
     } catch (err) {
-      setError(
-        err.message
-      );
+      setError(err?.message || "Unable to load report.");
       setData([]);
     } finally {
       setLoading(false);
@@ -140,26 +99,20 @@ export default function Reports() {
 
       <div className="bg-white rounded-4 shadow p-3 mb-4">
         <div className="d-flex flex-wrap gap-2">
-          {reportTypes.map(
-            (item) => (
-              <button
-                key={item.id}
-                type="button"
-                className={`btn ${
-                  report === item.id
-                    ? "btn-primary"
-                    : "btn-outline-primary"
-                }`}
-                onClick={() =>
-                  setReport(
-                    item.id
-                  )
-                }
-              >
-                {item.label}
-              </button>
-            )
-          )}
+          {reportTypes.map((item) => (
+            <button
+              key={item.id}
+              type="button"
+              className={`btn ${
+                report === item.id
+                  ? "btn-primary"
+                  : "btn-outline-primary"
+              }`}
+              onClick={() => setReport(item.id)}
+            >
+              {item.label}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -168,8 +121,7 @@ export default function Reports() {
           <h5 className="mb-0">
             {
               reportTypes.find(
-                (item) =>
-                  item.id === report
+                (item) => item.id === report
               )?.label
             }
           </h5>
@@ -181,46 +133,28 @@ export default function Reports() {
           </div>
         ) : (
           <>
-            {report ===
-              "inventory" && (
-              <InventoryTable
-                data={data}
-              />
+            {report === "inventory" && (
+              <InventoryTable data={data} />
             )}
 
-            {report ===
-              "sales" && (
-              <SalesTable
-                data={data}
-              />
+            {report === "sales" && (
+              <SalesTable data={data} />
             )}
 
-            {report ===
-              "purchases" && (
-              <PurchaseTable
-                data={data}
-              />
+            {report === "purchases" && (
+              <PurchaseTable data={data} />
             )}
 
-            {report ===
-              "stock-movements" && (
-              <StockMovementTable
-                data={data}
-              />
+            {report === "stock-movements" && (
+              <StockMovementTable data={data} />
             )}
 
-            {report ===
-              "low-stock" && (
-              <LowStockTable
-                data={data}
-              />
+            {report === "low-stock" && (
+              <LowStockTable data={data} />
             )}
 
-            {report ===
-              "user-activity" && (
-              <ActivityTable
-                data={data}
-              />
+            {report === "user-activity" && (
+              <ActivityTable data={data} />
             )}
           </>
         )}
@@ -242,9 +176,7 @@ function EmptyRow({ columns }) {
   );
 }
 
-function InventoryTable({
-  data,
-}) {
+function InventoryTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -259,55 +191,29 @@ function InventoryTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.productId
-                }
-              >
-                <td>
-                  {
-                    item.productName
-                  }
-                </td>
+          {data.map((item) => (
+            <tr key={item.productId}>
+              <td>{item.productName}</td>
 
-                <td>
-                  {
-                    item.category ||
-                    "—"
-                  }
-                </td>
+              <td>{item.category || "—"}</td>
 
-                <td>
-                  ₹
-                  {Number(
-                    item.price
-                  ).toLocaleString(
-                    "en-IN"
-                  )}
-                </td>
+              <td>
+                ₹
+                {Number(item.price).toLocaleString("en-IN")}
+              </td>
 
-                <td>
-                  {
-                    item.totalStock
-                  }
-                </td>
+              <td>{item.totalStock}</td>
 
-                <td>
-                  ₹
-                  {Number(
-                    item.inventoryValue
-                  ).toLocaleString(
-                    "en-IN"
-                  )}
-                </td>
-              </tr>
-            )
-          )}
+              <td>
+                ₹
+                {Number(item.inventoryValue).toLocaleString(
+                  "en-IN"
+                )}
+              </td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={5} />
           )}
         </tbody>
@@ -316,9 +222,7 @@ function InventoryTable({
   );
 }
 
-function SalesTable({
-  data,
-}) {
+function SalesTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -335,62 +239,34 @@ function SalesTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.orderId
-                }
-              >
-                <td>
-                  #{item.orderId}
-                </td>
+          {data.map((item) => (
+            <tr key={item.orderId}>
+              <td>#{item.orderId}</td>
 
-                <td>
-                  {
-                    item.customerName
-                  }
-                </td>
+              <td>{item.customerName}</td>
 
-                <td>
-                  {
-                    item.warehouseName
-                  }
-                </td>
+              <td>{item.warehouseName}</td>
 
-                <td>
-                  {
-                    item.status
-                  }
-                </td>
+              <td>{item.status}</td>
 
-                <td>
-                  {new Date(
-                    item.orderDate
-                  ).toLocaleDateString()}
-                </td>
+              <td>
+                {new Date(
+                  item.orderDate
+                ).toLocaleDateString()}
+              </td>
 
-                <td>
-                  {
-                    item.invoiceNumber ||
-                    "—"
-                  }
-                </td>
+              <td>{item.invoiceNumber || "—"}</td>
 
-                <td>
-                  ₹
-                  {Number(
-                    item.totalAmount
-                  ).toLocaleString(
-                    "en-IN"
-                  )}
-                </td>
-              </tr>
-            )
-          )}
+              <td>
+                ₹
+                {Number(item.totalAmount).toLocaleString(
+                  "en-IN"
+                )}
+              </td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={7} />
           )}
         </tbody>
@@ -399,9 +275,7 @@ function SalesTable({
   );
 }
 
-function PurchaseTable({
-  data,
-}) {
+function PurchaseTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -418,61 +292,34 @@ function PurchaseTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.orderId
-                }
-              >
-                <td>
-                  #{item.orderId}
-                </td>
+          {data.map((item) => (
+            <tr key={item.orderId}>
+              <td>#{item.orderId}</td>
 
-                <td>
-                  {
-                    item.supplierName
-                  }
-                </td>
+              <td>{item.supplierName}</td>
 
-                <td>
-                  {
-                    item.warehouseName
-                  }
-                </td>
+              <td>{item.warehouseName}</td>
 
-                <td>
-                  {
-                    item.status
-                  }
-                </td>
+              <td>{item.status}</td>
 
-                <td>
-                  {new Date(
-                    item.orderDate
-                  ).toLocaleDateString()}
-                </td>
+              <td>
+                {new Date(
+                  item.orderDate
+                ).toLocaleDateString()}
+              </td>
 
-                <td>
-                  {
-                    item.itemCount
-                  }
-                </td>
+              <td>{item.itemCount}</td>
 
-                <td>
-                  ₹
-                  {Number(
-                    item.totalAmount
-                  ).toLocaleString(
-                    "en-IN"
-                  )}
-                </td>
-              </tr>
-            )
-          )}
+              <td>
+                ₹
+                {Number(item.totalAmount).toLocaleString(
+                  "en-IN"
+                )}
+              </td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={7} />
           )}
         </tbody>
@@ -481,9 +328,7 @@ function PurchaseTable({
   );
 }
 
-function StockMovementTable({
-  data,
-}) {
+function StockMovementTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -501,66 +346,31 @@ function StockMovementTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.id
-                }
-              >
-                <td>
-                  {new Date(
-                    item.timestamp
-                  ).toLocaleString()}
-                </td>
+          {data.map((item) => (
+            <tr key={item.id}>
+              <td>
+                {new Date(
+                  item.timestamp
+                ).toLocaleString()}
+              </td>
 
-                <td>
-                  {
-                    item.productName
-                  }
-                </td>
+              <td>{item.productName}</td>
 
-                <td>
-                  {
-                    item.warehouseName
-                  }
-                </td>
+              <td>{item.warehouseName}</td>
 
-                <td>
-                  {
-                    item.type
-                  }
-                </td>
+              <td>{item.type}</td>
 
-                <td>
-                  {
-                    item.quantityChange
-                  }
-                </td>
+              <td>{item.quantityChange}</td>
 
-                <td>
-                  {
-                    item.quantityAfter
-                  }
-                </td>
+              <td>{item.quantityAfter}</td>
 
-                <td>
-                  {
-                    item.performedBy
-                  }
-                </td>
+              <td>{item.performedBy}</td>
 
-                <td>
-                  {
-                    item.reason
-                  }
-                </td>
-              </tr>
-            )
-          )}
+              <td>{item.reason}</td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={8} />
           )}
         </tbody>
@@ -569,9 +379,7 @@ function StockMovementTable({
   );
 }
 
-function LowStockTable({
-  data,
-}) {
+function LowStockTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -587,65 +395,36 @@ function LowStockTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.productId
-                }
-              >
-                <td>
-                  {
-                    item.productName
-                  }
-                </td>
+          {data.map((item) => (
+            <tr key={item.productId}>
+              <td>{item.productName}</td>
 
-                <td>
-                  {
-                    item.category ||
-                    "—"
-                  }
-                </td>
+              <td>{item.category || "—"}</td>
 
-                <td>
-                  ₹
-                  {Number(
-                    item.price
-                  ).toLocaleString(
-                    "en-IN"
-                  )}
-                </td>
+              <td>
+                ₹
+                {Number(item.price).toLocaleString("en-IN")}
+              </td>
 
-                <td>
-                  {
-                    item.totalStock
-                  }
-                </td>
+              <td>{item.totalStock}</td>
 
-                <td>
-                  {
-                    item.threshold
-                  }
-                </td>
+              <td>{item.threshold}</td>
 
-                <td>
-                  {item.totalStock ===
-                  0 ? (
-                    <span className="badge text-bg-danger">
-                      Out of stock
-                    </span>
-                  ) : (
-                    <span className="badge text-bg-warning">
-                      Low stock
-                    </span>
-                  )}
-                </td>
-              </tr>
-            )
-          )}
+              <td>
+                {item.totalStock === 0 ? (
+                  <span className="badge text-bg-danger">
+                    Out of stock
+                  </span>
+                ) : (
+                  <span className="badge text-bg-warning">
+                    Low stock
+                  </span>
+                )}
+              </td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={6} />
           )}
         </tbody>
@@ -654,9 +433,7 @@ function LowStockTable({
   );
 }
 
-function ActivityTable({
-  data,
-}) {
+function ActivityTable({ data }) {
   return (
     <div className="table-responsive">
       <table className="table align-middle mb-0">
@@ -672,54 +449,27 @@ function ActivityTable({
         </thead>
 
         <tbody>
-          {data.map(
-            (item) => (
-              <tr
-                key={
-                  item.id
-                }
-              >
-                <td>
-                  {new Date(
-                    item.timestamp
-                  ).toLocaleString()}
-                </td>
+          {data.map((item) => (
+            <tr key={item.id}>
+              <td>
+                {new Date(
+                  item.timestamp
+                ).toLocaleString()}
+              </td>
 
-                <td>
-                  {
-                    item.performedBy
-                  }
-                </td>
+              <td>{item.performedBy}</td>
 
-                <td>
-                  {
-                    item.performedByRole
-                  }
-                </td>
+              <td>{item.performedByRole}</td>
 
-                <td>
-                  {
-                    item.action
-                  }
-                </td>
+              <td>{item.action}</td>
 
-                <td>
-                  {
-                    item.entityType
-                  }
-                </td>
+              <td>{item.entityType}</td>
 
-                <td>
-                  {
-                    item.targetName
-                  }
-                </td>
-              </tr>
-            )
-          )}
+              <td>{item.targetName}</td>
+            </tr>
+          ))}
 
-          {data.length ===
-            0 && (
+          {data.length === 0 && (
             <EmptyRow columns={6} />
           )}
         </tbody>
